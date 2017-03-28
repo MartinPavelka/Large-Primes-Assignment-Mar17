@@ -53,21 +53,21 @@ public class main {
      *  @param  num The input number
      *  @see main()
      */
-private static void updateStatistics(int num) {
-    if (num == 1)
-        onesCount++;
-    else if (num == 5)
-        fivesCount++;
-}
+    private static void updateStatistics(int num) {
+        if (num == 1)
+            onesCount++;
+        else if (num == 5)
+            fivesCount++;
+    }
 
     /* 
      * Prints the statistics of ones and fives
      * @see main()
      */
-private static void printStatistics() {
-    System.out.println(Integer.toString(onesCount) + "x '1'");
-    System.out.println(Integer.toString(fivesCount) + "x '5'");
-}
+    private static void printStatistics() {
+        System.out.println(Integer.toString(onesCount) + "x '1'");
+        System.out.println(Integer.toString(fivesCount) + "x '5'");
+    }
 
     /*
      *  Generates string from pattern based on ones count
@@ -140,7 +140,8 @@ private static void printStatistics() {
             }
         }
 
-        // Print statistics
+    // Print statistics
+        System.out.println("Occurences of numbers: ");
         printStatistics();
 
     // Print results

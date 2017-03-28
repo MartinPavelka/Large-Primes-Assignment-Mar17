@@ -12,6 +12,7 @@ $ java -cp /path/to/bin largeprimes.main
 
 ## Example output
 ```
+Occurences of numbers: 
 24998987x '1'
 25001011x '5'
 Read 50000000 numbers in 8125130 lines.
